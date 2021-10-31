@@ -1,6 +1,6 @@
 package com.multiThreading;
 
-public class MThread extends Thread {
+public class ThreadCreate extends Thread {
     public static void main(String[] args) throws InterruptedException {
 
         //1. extending Thread class
