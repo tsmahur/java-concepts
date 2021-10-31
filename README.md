@@ -1,8 +1,6 @@
 # java-concepts
 
-## Functional Interface
-- 
-## Lambda
+## Lambda , Functional Interface
 - lambda expression
 - Predicate
 - BiPredicate
@@ -25,3 +23,5 @@
 - join
 - priority  
 - thread pool
+- thread group
+- shut down hook
