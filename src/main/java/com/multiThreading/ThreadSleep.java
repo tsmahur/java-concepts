@@ -19,17 +19,15 @@ public class ThreadSleep {
     }
 }
 
+//do not change below code as this class is used in multiple other classes
 class MyPrintThread extends Thread{
     @Override
     public void run() {
-        System.out.println("thread MyPrintThread is running.... getState : " + this.getState() + "; name : " + this.getName());
+        System.out.println("thread MyPrintThread is running.... getState : " + this.getState() + "; name : " + this.getName()
+                +" priority : "+this.getPriority());//Thread.currentThread().getName()
         for (int i = 1; i < 6; i++) {
             System.out.println("name : " + this.getName()+" i : "+i);
-            try {
-                Thread.sleep(500);
-            } catch (InterruptedException e) {
-                e.printStackTrace();
-            }
+
         }
     }
 }

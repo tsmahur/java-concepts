@@ -40,14 +40,14 @@ public class ThreadCreate extends Thread {
 class MyThread extends Thread{
     @Override
     public void run() {
-        System.out.println("thread MyThread is running.... getState : "+this.getState()+"; name : "+this.getName());
+        System.out.println("thread MyThread is running.... getState : "+this.getState()+"; name : "+this.getName()+" priority : "+this.getPriority());
     }
 }
 
  class MyRunnable implements Runnable{
     @Override
     public void run() {
-        System.out.println("thread using MyRunnable is running....");
+        System.out.println("thread using MyRunnable is running.... name : "+Thread.currentThread().getName());
     }
 }
 
