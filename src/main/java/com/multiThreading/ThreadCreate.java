@@ -3,31 +3,25 @@ package com.multiThreading;
 public class ThreadCreate extends Thread {
     public static void main(String[] args) throws InterruptedException {
 
-        //1. extending Thread class
-        MyThread thread=new MyThread();
-        System.out.println("Thread created -" + thread.getState());
-
-        thread.start();
-        System.out.println("after line thread.start() -" + thread.getState());
-
-//        sleep(2000);
-//        TimeUnit.SECONDS.sleep(1);
-//        System.out.println("after line TimeUnit.SECONDS.sleep(1) -" + thread.getState());
-
-
-        //2. implementing Runnable interface
+        //Two ways to create thread
+        //1. implementing Runnable interface
         MyRunnable myRunnable =new MyRunnable();
         Thread threadUsingRunnable= new Thread(myRunnable);
         threadUsingRunnable.start();
         System.out.println("thread using Runnable interface is started name: "+threadUsingRunnable.getName());
 
+        //2.a. extending Thread class
+        MyThread thread=new MyThread();
+        System.out.println("Thread created -" + thread.getState());
+        thread.start();
+        System.out.println("after line thread.start() -" + thread.getState());
 
-        //3. Thread Class const. Thread(String Name)
+        //2.b. Thread Class const. Thread(String Name)
         Thread threadUsingNameConstructor= new Thread("threadUsingNameConstructor");
         threadUsingNameConstructor.start();
         System.out.println("thread using Thread(String Name) is started name: "+threadUsingNameConstructor.getName());
 
-        //4. Thread Class const. Thread(Runnable r,String Name)
+        //2.c. Thread Class const. Thread(Runnable r,String Name)
         MyRunnable myRunnable2 =new MyRunnable();
         Thread threadUsingRunnableAndNameConstructor= new Thread(myRunnable2,"threadUsingRunnableAndNameConstructor");
         threadUsingRunnableAndNameConstructor.start();
