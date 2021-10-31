@@ -19,4 +19,9 @@
 - reduce()
 
 ## MultiThreading
-- 
+- state
+- create
+- sleep
+- join
+- priority  
+- thread pool
