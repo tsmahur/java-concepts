@@ -1,4 +1,4 @@
-package garbage.collector;
+package com.garbagecollector;
 
 public class GarbageCollector {
     public static void main(String[] args) {
