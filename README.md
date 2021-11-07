@@ -25,3 +25,13 @@
 - thread pool
 - thread group
 - shut down hook
+
+## Synchronization
+- method
+- block
+- static
+
+- deadlock
+
+## RunTime class
+- runtime execute(exec)
