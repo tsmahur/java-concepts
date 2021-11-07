@@ -30,7 +30,7 @@
 - method
 - block
 - static
-
+- inter thread communication / co-operation
 - deadlock
 
 ## RunTime class
