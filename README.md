@@ -35,3 +35,11 @@
 
 ## RunTime class
 - runtime execute(exec)
+
+## Garbage Collector
+- gc
+
+## Custom Annotation
+- Marker Annotation
+- Single Value Annotaion
+- Multiple Value Annotaion
