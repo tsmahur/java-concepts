@@ -7,7 +7,7 @@
 - Consumer
 - Function
 
-## Stream
+## [Stream](/src/main/java/com/stream)
 - map()
 - flatMap()
 - filter()
@@ -16,7 +16,7 @@
 - collect()
 - reduce()
 
-## MultiThreading
+## [MultiThreading](/src/main/java/com/multiThreading)
 - state
 - create
 - sleep
@@ -25,27 +25,26 @@
 - thread pool
 - thread group
 - shut down hook
+- [Synchronization](/src/main/java/com/multiThreading/synchronization)
+  - method
+  - block
+  - static
+  - inter thread communication / co-operation
+  - deadlock
 
-## Synchronization
-- method
-- block
-- static
-- inter thread communication / co-operation
-- deadlock
-
-## RunTime class
+## [RunTime class](/src/main/java/com/javaruntime)
 - runtime execute(exec)
 
-## Garbage Collector
+## [Garbage Collector](/src/main/java/com/garbagecollector)
 - gc
 
-## Custom Annotation
+## [Custom Annotation](/src/main/java/com/customannotation)
 - Marker Annotation
 - Single Value Annotaion
 - Multiple Value Annotaion
 - access meta data of annotation
 
-## DS
+## [DS](/src/main/java/com/ds)
 - Node
 - Stack
 - Queue
@@ -54,7 +53,7 @@
 - BinaryTree
 - MinHeap
 
-## HandsOn
+## [HandsOn](/src/main/java/com/handson)
 
 [comment]: <> (- [PrimeNumber]&#40;/src/main/java/com/handson/PrimeNumber.java&#41;    )
 - [quesPractice](/src/main/java/com/handson/quesPractice)
