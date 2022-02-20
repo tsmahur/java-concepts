@@ -9,7 +9,7 @@ public class ThreadRunDirectly {
 //        thread2.start();
 
         //no context-switching, treated as normal object not thread object, executed on same stack
-        thread1.run();
-        thread2.run();
+//        thread1.run();
+//        thread2.run();
     }
 }

@@ -1,4 +1,4 @@
-package com.synchronization;
+package com.multiThreading.synchronization;
 
 public class InterThreadCommunication {
     public static void main(String[] args) {

@@ -43,3 +43,35 @@
 - Marker Annotation
 - Single Value Annotaion
 - Multiple Value Annotaion
+- access meta data of annotation
+
+## DS
+- Node
+- Stack
+- Queue
+- Tries
+- BinaryNode
+- BinaryTree
+- MinHeap
+
+## HandsOn
+
+[comment]: <> (- [PrimeNumber]&#40;/src/main/java/com/handson/PrimeNumber.java&#41;    )
+- [quesPractice](/src/main/java/com/handson/quesPractice)
+    - PrimeNumber 
+    - PrimeString  
+    - BalancedParenthesis
+    - Anagram
+    - CoinChange
+    - CycleNode
+    - DuplicateCharacters
+    - LonelyNumber
+    - RemoveDuplicates
+    - RunningMedian
+- Sorting :-
+  -  BubbleSort
+  -  MergeSort
+  -  QuickSort
+- Searching :-
+    -  LinearSearch 
+    -  BinarySearch 

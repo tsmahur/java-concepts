@@ -1,4 +1,4 @@
-package com.synchronization;
+package com.multiThreading.synchronization;
 
 public class WithoutSync {
     public static void main(String args[]) {

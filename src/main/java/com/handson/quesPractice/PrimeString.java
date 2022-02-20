@@ -1,4 +1,4 @@
-package com.quesPractice;
+package com.handson.quesPractice;
 
 import java.util.Scanner;
 
