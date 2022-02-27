@@ -35,5 +35,13 @@ public class Stack<T> {
             tempNode = tempNode.getNext();
         }
     }
+    public boolean isEmpty(){
+        return top==null;
+    }
+    public T peek(){
+        if(!isEmpty())
+            return top.getData();
+        else return null;
+    }
 
 }

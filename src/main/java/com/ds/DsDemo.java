@@ -30,6 +30,14 @@ public class DsDemo {
         integerLinkedList.remove(3);
         integerLinkedList.display();
         //------------------------------------------------
+        System.out.println("-------Queue Using Stack-------");
+        QueueUsingStack<Integer> integerQueueUsingStack=new QueueUsingStack<>();
+        integerQueueUsingStack.enqueue(10);
+        integerQueueUsingStack.enqueue(11);
+        integerQueueUsingStack.enqueue(12);
+        System.out.println("Peek : "+integerQueueUsingStack.peek());//stack will shift if old is empty
+        System.out.println("Dequeue : "+integerQueueUsingStack.dequeue());//stack will shift if old is empty
+        //------------------------------------------------
         //Binary Search tree
         BinaryNode root=new BinaryNode(11);
         BinaryTree tree=new BinaryTree(root);
