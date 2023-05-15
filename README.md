@@ -1,6 +1,6 @@
 # java-concepts
 
-## Lambda , Functional Interface
+## [Lambda , Functional Interface](/src/main/java/com/lambda)
 - lambda expression
 - Predicate
 - BiPredicate

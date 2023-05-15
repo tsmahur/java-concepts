@@ -1,5 +1,6 @@
 package com.lambda;
 
+import java.util.ArrayList;
 import java.util.List;
 import java.util.function.BiPredicate;
 import java.util.function.Consumer;
@@ -22,9 +23,58 @@ default void show() {
 }
 }
 
+@FunctionalInterface
+interface Calculator{
+	int calculate(int a,int b);
+
+}
+
+class Adder implements Calculator{
+
+	@Override
+	public int calculate(int a,int b) {
+		return a+b;
+	}
+}
 public class Lambda {
 
     public static void main(String[] args) {
+
+		//------------- before lambda -------
+		Calculator c=new Adder();
+		c.calculate(1,2);
+
+		//anonymous class
+		Calculator subb=new Calculator() {
+			@Override
+			public int calculate(int a, int b) {
+				return a-b;
+			}
+		};
+
+		subb.calculate(2,1);
+
+		//----------- after lambda ------------
+		Calculator multiplier = (x,y) -> x+y; //argument -> body
+		multiplier.calculate(2,4);
+
+		//multiline lambda expression
+		Calculator multiplier2 = (x,y) -> {
+			x=2 * x;
+
+			return x+y;
+		};
+
+		// Consumer
+		List<String> a=new ArrayList<>();
+		a.forEach(x-> {
+			x = 2 + x;
+			System.out.println(x);
+
+		});
+
+//        a.stream().filter()
+
 
     //LAMBDA  EXPRESSION
     		//--------------------
